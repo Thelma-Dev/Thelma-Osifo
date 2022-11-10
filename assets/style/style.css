@@ -197,3 +197,66 @@ article p {
     margin-top: 30px;
     font-size: 18px;
 }
+
+/* Contact me */
+.contact-me {
+    width: 100%;
+    height: auto;
+    background-color: var(--app-dark-bg);
+}
+
+.contact-me .section-heading h3 {
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 400px;
+    height: 200px;
+    padding: 20px 20px;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact i {
+    font-size: 65px;
+    color: #fff;
+}
+
+.email, .linkedin, .github {
+    display:flex;
+    flex-direction: column;
+}
+
+.tag {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.fa-linkedin:hover {
+    color: #0759c4e7;
+    border-color: #e4e1e1;
+}
+
+.fa-envelope:hover {
+    color: #3b60c4;
+    border-color: #e4e1e1;
+}
+   
+.fa-github:hover {
+     color:#131e36;
+     border-color: #e4e1e1;
+}
