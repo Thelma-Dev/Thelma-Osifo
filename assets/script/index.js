@@ -13,3 +13,12 @@ function getElement(selector, parent = document) {
 function select(selector, parent = document) {
     return parent.querySelector(selector);
 }
+
+
+let scrollToProfile = select("#scroll")
+let aboutPage = select("#about")
+
+onEvent('click', scrollToProfile, function() {
+    aboutPage.scrollIntoView();
+});
+

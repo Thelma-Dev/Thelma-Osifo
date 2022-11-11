@@ -10,6 +10,11 @@
     --app-border-radius: 6px;
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: all 0.25s ease-in-out;
+}
+
 body {
     background-color: #fff;
     height: 100vh;
@@ -174,11 +179,10 @@ nav ul li + li {
 }
 
 /* Section */
-
 section .section-heading {
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
   
 section .section-heading h6 {
@@ -218,10 +222,9 @@ article p {
 }
 
 /* Contact me */
-
 .contact-me {
     width: 100%;
-    height: auto;
+    height: 400px;
     background-color: var(--app-light-bg);
 }
 
@@ -240,7 +243,7 @@ article p {
     flex-direction: row;
     flex-wrap: wrap;
     margin-inline: auto;
-    width: 600px;
+    width: 100%;
     height: 200px;
     padding: 20px 25px;
     border: none;
@@ -248,7 +251,7 @@ article p {
     gap: 20px;
 }
 
-.email, .linkedin, .github {
+.email, .linkedin, .github, .location {
     display:grid;
     place-items: center;
     text-align: center;
@@ -269,6 +272,7 @@ article p {
 .contact i {
     font-size: 70px;
     color: #000;
+    transition: color 0.25s ease-in-out;
 }
 
 .tag {
@@ -283,16 +287,8 @@ article p {
     font-size: 16px;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin:hover, .fa-location-dot:hover, .fa-envelope:hover, .fa-github:hover {
     color: #131e36;
-}
-
-.fa-envelope:hover {
-    color: #131e36;
-}
-   
-.fa-github:hover {
-     color:#131e36;
 }
   
 .button {
@@ -327,7 +323,7 @@ input[type="button"]:hover {
 /* footer                           */
 /* -------------------------------- */
 
-footer {
+.footer {
     width: 100%;
     height: 100px;
     background-color: var(--app-dark-bg);
@@ -371,6 +367,7 @@ footer p.copyright {
 .chat:hover {
     background-color: var(--app-green-hover);
 }
+
   
 
 /* -------------------------------- */
