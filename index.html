@@ -22,9 +22,8 @@
                     <div class="title"><h1><span>&lt;/&gt;</span> Developer</h1></div>
                     <nav>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#about">About Me</a></li>
+                            <li class="contact-link"><a href="#contact">Contact Me</a></li>
                         </ul>
                     </nav>
                     
@@ -44,7 +43,7 @@
                     <div class="hero-text">
                         <p><span>&lt;head&gt;</span> Hello there, <span>&lt;/head&gt;</span></p>
                         <h2>I'm Thelma, a Software Developer based in Winnipeg</h2>
-                        <a href="#">More</a>
+                        <a href="#about">Read More</i></a>
                     </div>
                 </div>
             </section>
@@ -52,11 +51,11 @@
             <section>
                 <div class="container section-heading">
                     <h6>Profile</h6>
-                    <h3>About <Span>me</Span></h3>
+                    <h3>About <Span>Me</Span></h3>
                 </div>
             </section>
 
-            <section>
+            <section id="about">
                 <article>
                     <div class="container">
                         <p>
@@ -80,22 +79,29 @@
             <section class="contact-me">
                 <div class="container section-heading">
                     <h6>Contact me</h6>
-                    <h3>Get in<Span>Touch</Span></h3>
+                    <h3>Let's <Span>Chat</Span></h3>
                 </div>
-            
-
-                <section class="contact-me">
+                
+                <section id="contact">
                     <div class="container">
-                        <div class="form">
-                            <form action="#" method="post" name="contact-me">
-                                <input type="text" name="name" placeholder="Name" required>
-                                <input type="text" name="email" placeholder="Email" required>
-                                <input type="text" name="subject" placeholder="Subject" required>
-                                <textarea name="Message" placeholder="Type your message here"></textarea>
-                                <div class="button">
-                                    <input type="button" value="Send Message">
-                                </div>
-                            </form>
+                        <div class="contact">
+                            <div class="email">
+                                <div class="icon"><a href="mailto:osifoaisosa@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
+                                <div class="tag">Email</div>
+                                <div class="text">osifoaisosa@gmail.com</div>
+                            </div>
+    
+                            <div class="linkedin">
+                                <div class="icon"><a href="linkedin.com/in/thelma-aisosa-osifo-8b7b01160"><i class="fa-brands fa-linkedin"></i></a></div>
+                                <div class="tag">Linkedin</div>
+                                <div class="text">Thelma Osifo</div>
+                            </div>
+    
+                            <div class="github">
+                                <div class="icon"><a href="github.com/Thelma-Dev"><i class="fa-brands fa-github"></i></a></div>
+                                <div class="tag">Github</div>
+                                <div class="text">@Thelma-Dev</div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -103,28 +109,12 @@
 
             <footer>
                 <div class="container">
-                    <p>Reach out to me on</p>
-                    <div class="contact">
-                        <div class="email">
-                            <div class="icon"><a href="mailto:osifoaisosa@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
-                            <div class="tag">Email</div>
-                        </div>
-
-                        <div class="linkedIn">
-                            <div class="icon"><a href="linkedin.com/in/thelma-aisosa-osifo-8b7b01160"><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="tag">Linkedin</div>
-                        </div>
-
-                        <div class="github">
-                            <div class="icon"><a href="github.com/Thelma-Dev"><i class="fa-brands fa-github"></i></a></div>
-                            <div class="tag">Github</div>
-                        </div>
-                    </div>
+                    <div class="logo"></div>
                     <p class="copyright">&copy; 2022 All rights reserved</p>
                 </div>
             </footer>
 
-            <div class="chat"><i class="fa-solid fa-message"></i></div>
+            <div class="chat"><a href="mailto:osifoaisosa@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
         </main>
     </body>
 </html>
