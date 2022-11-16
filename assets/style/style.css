@@ -99,6 +99,7 @@ nav ul li a:hover {
 .menu-bar nav ul li.toggle {
     display: none;
     text-align: right;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul li + li {
@@ -405,7 +406,7 @@ footer p.copyright {
     section .hero-text h2 {
       font-size: 60px;
     } 
-  }
+}
 
   @media (max-width: 960px) {
     .hero-text {
@@ -425,7 +426,7 @@ footer p.copyright {
       article p {
         font-size: 17px;
     }
-  }
+}
   
   /* 800px and down */
   @media (max-width: 800px) {
@@ -460,13 +461,7 @@ footer p.copyright {
     .email >div, .linkedin >div, .github >div, .location >div {
         margin-inline: auto;
     }
-    
-
-    
-  }
-    
-
-
+}
   
   /* 680px and down */
   @media (max-width: 680px) {
@@ -548,8 +543,9 @@ footer p.copyright {
 
     .hero-text {
         text-align: center;
-        top: 48%;
+        top: 50%;
         left: 50%;
+        transform: translate( -50%, -50%);
     }
           
     section .hero-text h2  {
@@ -618,5 +614,6 @@ footer p.copyright {
     .contacts i {
         font-size: 40px;
     } 
+
 }
 
